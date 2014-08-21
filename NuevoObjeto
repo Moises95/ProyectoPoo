@@ -1,0 +1,41 @@
+package biblioteca;
+
+public class NuevoObjeto {
+
+	public String titulo;
+	public String tipo;
+	public String caracteristica;
+	public int calificacion;
+	public boolean disponible;
+	
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String pTitulo) {
+		this.titulo = pTitulo;
+	}
+	public String getTipo() {
+		return tipo;
+	}
+	public void setTipo(String pTipo) {
+		this.tipo = pTipo;
+	}
+	public String getCaracteristica() {
+		return caracteristica;
+	}
+	public void setCaracteristica(String pCaracteristica) {
+		this.caracteristica = pCaracteristica;
+	}
+	public int getCalificacion() {
+		return calificacion;
+	}
+	public void setCalificacion(int pCalificacion) {
+		this.calificacion = pCalificacion;
+	}
+	public boolean isDisponible() {
+		return disponible;
+	}
+	public void setDisponible(boolean pDisponible) {
+		this.disponible = pDisponible;
+	}
+}
