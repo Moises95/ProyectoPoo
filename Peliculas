@@ -1,0 +1,50 @@
+package biblioteca;
+
+public class Peliculas {
+	
+	public String titulo;
+	public String genero;
+	public int anio;
+	public String duracion;
+	public int calificacion;
+	public boolean disponible;
+	
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String pTitulo) {
+		this.titulo = pTitulo;
+	}
+	public boolean isDisponible() {
+		return disponible;
+	}
+	public void setDisponible(boolean pDisponible) {
+		this.disponible = pDisponible;
+	}
+	public String getGenero() {
+		return genero;
+	}
+	public void setGenero(String pGenero) {
+		this.genero = pGenero;
+	}
+	public int getAnio() {
+		return anio;
+	}
+	public void setAnio(int pAnio) {
+		this.anio = pAnio;
+	}
+	public String getDuracion() {
+		return duracion;
+	}
+	public void setDuracion(String pDuracion) {
+		this.duracion = pDuracion;
+	}
+	public int getCalificacion() {
+		return calificacion;
+	}
+	public void setCalificacion(int pCalificacion) {
+		this.calificacion = pCalificacion;
+	}
+	
+
+}
