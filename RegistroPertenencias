@@ -1,0 +1,35 @@
+package biblioteca;
+
+import java.util.ArrayList;
+
+public class RegitroPertenecias {
+	
+	public ArrayList<LibrosRevistas> libros;
+	public ArrayList<Peliculas> peliculas;
+	public ArrayList<NuevoObjeto> otro;
+	
+	public void RegistroPertencias(){
+		libros = new ArrayList <LibrosRevistas>();
+		peliculas = new ArrayList<Peliculas>();
+		otro = new ArrayList<NuevoObjeto>();
+	}
+	public ArrayList<LibrosRevistas> getLibros() {
+		return libros;
+	}
+	public void setLibros(ArrayList<LibrosRevistas> libros) {
+		this.libros = libros;
+	}
+	public ArrayList<Peliculas> getPeliculas() {
+		return peliculas;
+	}
+	public void setPeliculas(ArrayList<Peliculas> peliculas) {
+		this.peliculas = peliculas;
+	}
+	public ArrayList<NuevoObjeto> getOtro() {
+		return otro;
+	}
+	public void setOtro(ArrayList<NuevoObjeto> otro) {
+		this.otro = otro;
+	}
+
+}
