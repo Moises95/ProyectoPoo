@@ -1,0 +1,43 @@
+package biblioteca;
+
+public class RegistroPersonas {
+	
+	public String relacion;
+	public String nombre;
+	public String email;
+	public String telefono;
+	public String cedula;
+	
+	public String getRelacion() {
+		return relacion;
+	}
+	public void setRelacion(String pRelacion) {
+		this.relacion = pRelacion;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String pNombre) {
+		this.nombre = pNombre;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String pEmail) {
+		this.email = pEmail;
+	}
+	public String getTelefono() {
+		return telefono;
+	}
+	public void setTelefono(String pTelefono) {
+		this.telefono = pTelefono;
+	}
+	public String getCedula() {
+		return cedula;
+	}
+	public void setCedula(String pCedula) {
+		this.cedula = pCedula;
+	}
+	
+
+}
